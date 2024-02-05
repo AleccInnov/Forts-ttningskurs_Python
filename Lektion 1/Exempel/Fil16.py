@@ -8,5 +8,4 @@ def custom_key(word):
 words = ["banana", "apple", "cat", "dog", "mongoose"]
 sorted_words = sorted(words, key=custom_key)
 
-
 print(sorted_words)

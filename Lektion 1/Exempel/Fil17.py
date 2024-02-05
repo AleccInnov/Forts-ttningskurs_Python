@@ -6,5 +6,5 @@ students = [
     {"name": "Charlie", "score": 78}
 ]
 
-sorted_students = sorted(students, key=lambda x: x["score"], reverse=True)
+sorted_students = sorted(students, key=lambda x: x["score"])
 print(sorted_students)
