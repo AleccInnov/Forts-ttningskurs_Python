@@ -1,1 +1,1 @@
-#Radera en post i din databastabell
+#Radera en Kalle ur din databastabell
