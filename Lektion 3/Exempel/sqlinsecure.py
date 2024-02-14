@@ -28,7 +28,7 @@ def main():
         print("\nDin användare:")
         for user in users:
             print(user)
-
+            
 
     conn.close()
 

@@ -50,7 +50,7 @@ def update_user_age(conn):
     cursor = conn.cursor()
 
     update_query = "UPDATE users SET age =? WHERE id = ?"
-    print (update_query)
+    #print (update_query)
     cursor.execute(update_query, (new_age, user_id))
     conn.commit()
     print("Användarens ålder uppdaterad!")
@@ -77,7 +77,7 @@ def main():
         print("5. Radera användare")
         print("6. Exit")
         
-        choice = input("Enter your choice: ")
+        choice = input("Välj vad du vill göra: ")
 
         if choice == '1':
             add_user(conn)
