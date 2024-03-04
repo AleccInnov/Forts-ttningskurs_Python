@@ -1,0 +1,17 @@
+UTF-8: Vanlig och allmänt använd encoding som stöder en stor mängd tecken
+från olika språk och skriftsystem, inklusive svenska tecken som å, ä och ö.
+Rekommenderas för svenska texter på webben och i filsystem.
+
+ISO-8859-1: Även känd som Latin-1, stöder tecken för de flesta västeuropeiska
+språk, inklusive svenska. Används ibland för svenska texter i vissa sammanhang,
+men UTF-8 är vanligare och mer robust.
+
+Windows-1252: En variant av Latin-1 som inkluderar ytterligare tecken och
+specialtecken som används i Windows-operativsystemet. Kan användas för svenska
+texter i Windows-miljöer, men UTF-8 är generellt att föredra för bättre
+interoperabilitet och webbkompatibilitet.
+
+ASCII: Enklaste encoding som bara stöder de mest grundläggande tecknen,
+vilket inte inkluderar svenska bokstäver å, ä och ö.
+Används sällan för svenska texter på grund av bristande stöd för nationella
+tecken.
