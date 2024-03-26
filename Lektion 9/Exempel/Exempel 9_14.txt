@@ -1,0 +1,34 @@
+1. Vanliga Widgetalternativ:
+       * `bg` eller `background`: Bakgrundsfärg på widgeten.
+       * `fg` eller `foreground`: Förgrundsfärg (textfärg) på widgeten.
+       * `font`: Typsnitt som används för texten.
+       * `height`: Höjden på widgeten (i tecken eller pixlar).
+       * `width`: Bredden på widgeten (i tecken eller pixlar).
+
+2. Alternativ specifika för Buttons:
+       * `command`: Funktion att anropa när knappen klickas.
+       * `relief`: Stil på knappens ram (t.ex. `tk.FLAT`, `tk.RAISED`, `tk.SUNKEN`, `tk.GROOVE`, `tk.RIDGE`).
+
+3. Alternativ specifika för Labels:
+       * `text`: Text som visas av etiketten.
+       * `justify`: Justering av texten (`tk.LEFT`, `tk.CENTER`, `tk.RIGHT`).
+       * `anchor`: Justering av texten inom etiketten (`tk.N`, `tk.S`, `tk.E`, `tk.W`, `tk.NE`, `tk.NW`, `tk.SE`, `tk.SW`, `tk.CENTER`).
+
+4. Alternativ specifika för Entry:
+       * `show`: Tecken som ska visas istället för den faktiska inmatningen (t.ex. för lösenordsinmatning).
+               password_entry = tk.Entry(root, show='*')
+
+5. Alternativ specifika för Frames:
+       * `borderwidth`: Bredd på ramen.
+       * `relief`: Ramens ramstil.
+
+6. Alternativ specifika för Checkboxes:
+       * `variable`: Tkinter-variabel associerad med checkboxen (t.ex. `tk.BooleanVar`).
+
+7. Alternativ specifika för Radiobuttons:
+       * `variable`: Tkinter-variabel associerad med radiobuttongruppen (t.ex. `tk.StringVar`).
+       * `value`: Värde tilldelat radiobutton.
+
+9. Alternativ specifika för menyer:
+        * `tearoff`: Om menyn kan rivas av och flyttas oberoende (`0` för nej, `1` för ja).
+

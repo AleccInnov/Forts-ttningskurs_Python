@@ -1,0 +1,32 @@
+1. create_arc: Skapar en båge (en del av en cirkel)
+
+2. create_bitmap: Skapar en bitmappbild
+
+3. create_image: Skapar en bild
+
+4. create_line: Skapar en rak linje
+
+5. create_oval: Skapar en oval
+
+6. create_polygon: Skapar en polygon
+
+7. create_rectangle: Skapar en rektangel
+
+8. create_text: Skapar en text
+
+9. create_window: Skapar ett fönster (vanligtvis en ram)
+
+10. coords: Modifierar koordinaterna för ett canvasobjekt
+
+11. delete: Tar bort ett eller flera canvasobjekt
+
+12. find_closest: Hittar det canvasobjekt som är närmast en given punkt
+
+13. gettags: Hämtar taggarna som är associerade med ett canvasobjekt
+
+14. itemconfig: Modifierar konfiguration för ett canvasobjekt
+
+15. move: Flyttar ett canvasobjekt
+
+16. scale: Skalar ett canvasobjekt
+
