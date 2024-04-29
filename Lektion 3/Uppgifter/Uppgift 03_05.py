@@ -1,3 +1,4 @@
+#Fortsätt efter Uppgift 03_04
 #Om användaren väljer 1 i din meny:
 #1. Vill du spela sten, sax, påse?
 
