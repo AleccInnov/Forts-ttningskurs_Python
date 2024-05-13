@@ -18,9 +18,9 @@ class CanvasDemo:
         #self.canvas.itemconfig(self.text, font=("Arial", 12, "bold"))
 
         # Flytta
-        #self.canvas.move(self.line, 0, 20)
+        self.canvas.move(self.line, 0, 20)
 
-        # ad händer om man trycker på en form (Binda event till den)
+        # Vad händer om man trycker på en form (Binda event till den)
         self.canvas.tag_bind(self.rectangle, "<Button-1>", lambda event: self.change_color(self.rectangle))
         self.canvas.tag_bind(self.oval, "<Button-1>", lambda event: self.change_color(self.oval))
 

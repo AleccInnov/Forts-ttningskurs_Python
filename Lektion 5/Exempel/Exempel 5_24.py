@@ -18,9 +18,9 @@ class CanvasDemo:
     def change_color(self):
         # Get all objects with the tag "my_tag"
         objects_with_tag = self.canvas.find_withtag("my_tag")
-        print(objects_with_tag)
+        #print(objects_with_tag)
         # Configure all objects with the tag to have the same fill color
-        #self.canvas.itemconfig("my_tag", fill="yellow")
+        self.canvas.itemconfig("my_tag", fill="yellow")
 
 def main():
     root = tk.Tk()

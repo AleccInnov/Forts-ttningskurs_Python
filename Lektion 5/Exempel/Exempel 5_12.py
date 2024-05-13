@@ -18,3 +18,9 @@ label = tk.Label(window, text="Du har valt: " + options[0])
 label.pack()
 
 window.mainloop()
+
+
+
+
+
+

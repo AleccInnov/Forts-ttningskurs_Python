@@ -2,7 +2,7 @@ import tkinter as tk
 
 win = tk.Tk()
 
-frame1 = tk.Frame(win, width=200, height=100, bg="Yellow")
+frame1 = tk.Frame(win, bg="Yellow", width=200, height=100)
 # setting fill, side and expand
 frame1.pack(fill=tk.BOTH, side=tk.LEFT, expand=True)
 

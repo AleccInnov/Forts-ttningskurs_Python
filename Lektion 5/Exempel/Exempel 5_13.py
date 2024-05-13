@@ -17,7 +17,7 @@ def create_radiobutton(value):
     return tk.Radiobutton(window, text=f"Option {value}", variable=radio_var, value=f"Option {value}")
 
 # Packa radiobuttons
-for i in range(1, num_radiobuttons + 1):
+for i in range(1, num_radiobuttons+1):
     radiobutton = create_radiobutton(i)
     radiobutton.pack()
 
