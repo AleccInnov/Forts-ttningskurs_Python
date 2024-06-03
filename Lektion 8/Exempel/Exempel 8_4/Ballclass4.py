@@ -3,7 +3,7 @@ import random
 class Ball:
     def __init__(self, canvas, canvas_width, canvas_height, color, radius):
         self.canvas = canvas
-        self.radius = radius
+        self.radius = random.randint(10,50)
         self.color = color
         self.canvas_width = canvas_width
         self.canvas_height = canvas_height

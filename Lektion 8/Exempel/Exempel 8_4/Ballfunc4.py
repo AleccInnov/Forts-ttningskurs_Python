@@ -9,7 +9,7 @@ def create_new_ball(canvas, canvas_width, canvas_height, Ball, balls):
 def move_ball(balls, root):
     for i, ball in enumerate(balls):
         ball.move()
-        # Check collision with other balls
+        # Kolla krockar
         for other_ball in balls[i+1:]:
             ball.check_collision(other_ball)
     root.after(50, move_ball, balls, root)

@@ -1,30 +1,30 @@
 import tkinter as tk
 import random
-from Ballclass4 import Ball
-from Ballfunc4 import create_new_ball, move_ball
+from Ballclass import Ball
+from Ballfunc import create_new_ball, move_ball
 
 def main():
+    # Create the main window
     root = tk.Tk()
     root.title("Bollklickspelet")
     
-    # Skapa canvas
-    canvas_width = 400
-    canvas_height = 400
+    # Create the canvas
+    canvas_width = 500
+    canvas_height = 500
     canvas = tk.Canvas(root, width=canvas_width, height=canvas_height, bg="white")
     canvas.pack()
-
-    #Lista med flera bollar
-    balls = []
-
-    # Skapa boll och lägga till boll i listan
+    
+    # Create the initial ball
     ball_radius = 20
     ball_color = "#1122FF"
     ball = Ball(canvas, canvas_width, canvas_height, ball_color, ball_radius)
-    balls.append(ball)
-    create_new_ball(canvas, canvas_width, canvas_height, Ball, balls)
+    
+    # Create a new ball
+    create_new_ball(canvas, canvas_width, canvas_height, Ball)
 
-    # Boll 1 rör sig
-    move_ball(balls, root)
+    # Start moving the ball
+    move_ball(ball, root)
+
 
     # Start the main event loop
     root.mainloop()
