@@ -1,1 +1,1 @@
-# Skapa en lista med kvadrater för tal från 1 till 10.
+# Ta listan [7, 4, 2, 35, 8, 1] och sortera den med olika sorteringsfunktioner.
