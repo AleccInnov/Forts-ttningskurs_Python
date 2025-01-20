@@ -1,1 +1,1 @@
-#Radera en Kalle ur din databastabell
+# Radera en Kalle ur din databastabell

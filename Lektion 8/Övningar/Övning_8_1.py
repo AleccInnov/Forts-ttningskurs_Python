@@ -1,4 +1,4 @@
-#Hitta 1 fel
+# Hitta 1 fel
 
 import tkinter as tk
 import random

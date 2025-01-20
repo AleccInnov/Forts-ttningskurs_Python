@@ -13,7 +13,7 @@ def main():
     canvas = tk.Canvas(root, width=canvas_width, height=canvas_height, bg="white")
     canvas.pack()
 
-    #Lista med flera bollar
+    # Lista med flera bollar
     balls = []
 
     # Skapa boll och lägga till boll i listan
@@ -21,7 +21,7 @@ def main():
     ball_color = "#1122FF"
     ball = Ball(canvas, canvas_width, canvas_height, ball_color, ball_radius)
     
-    #Lägga till ball i listan balls
+    # Lägga till ball i listan balls
     balls.append(ball)
     
     create_new_ball(canvas, canvas_width, canvas_height, Ball, balls)

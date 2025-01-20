@@ -1,5 +1,5 @@
 # Uppgift: Lägg till loggmeddelanden för att spåra variabler
-#och körningsflöde och hitta vad som skapar det felaktiga svaret.
+# och körningsflöde och hitta vad som skapar det felaktiga svaret.
 
 def calculate_area(length, width):
     area = length * width

@@ -15,5 +15,5 @@ label.pack()
 button = tk.Button(frame, text="Klick!")
 button.pack()
 
-#Event loop
+# Event loop
 window.mainloop()

@@ -1,4 +1,4 @@
-#Hitta 5 fel i koden
+# Hitta 5 fel i koden
 import tkinter as tk
 import Random
 

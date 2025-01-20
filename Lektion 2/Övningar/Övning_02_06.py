@@ -1,1 +1,1 @@
-#Skriv ut all data från din databastabell
+# Skriv ut all data från din databastabell
