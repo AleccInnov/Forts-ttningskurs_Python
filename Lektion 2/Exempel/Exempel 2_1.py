@@ -1,8 +1,8 @@
 import sqlite3
 
-conn = sqlite3.connect('example.db') # Skapar databas-koppling eller skapa en db-fil om den inte redan finns
+conn = sqlite3.connect('example.db')  # Skapar databas-koppling eller skapa en db-fil om den inte redan finns
 
-cursor = conn.cursor() # Skapar en cursor så att vi kan jobba med databasen
+cursor = conn.cursor()  # Skapar en cursor så att vi kan jobba med databasen
 
 # Skapa en tabell om den inte redan existerar
 cursor.execute('''CREATE TABLE IF NOT EXISTS users (

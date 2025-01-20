@@ -31,7 +31,7 @@ class MovingButton:
 
 def main():
     root = tk.Tk()
-    root.geometry("300x200") # Hur stort ska mitt fönster vara?
+    root.geometry("300x200")  # Hur stort ska mitt fönster vara?
     root.title("Den studsande knappen")
 
     moving_button = MovingButton(root)
