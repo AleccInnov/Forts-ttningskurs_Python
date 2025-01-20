@@ -1,4 +1,4 @@
-# Uppgift: Använd en debugger för att hitta och åtgärda felet i koden.
+# Övning: Använd en debugger för att hitta och åtgärda felet i koden.
 
 def factorial(n):
     if n == 0:

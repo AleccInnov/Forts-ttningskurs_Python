@@ -1,4 +1,4 @@
-# Uppgift: Identifiera det logiska felet och korrigera koden för att
+# Övning: Identifiera det logiska felet och korrigera koden för att
 # få körbar kod.
 
 def calculate_average(numbers):

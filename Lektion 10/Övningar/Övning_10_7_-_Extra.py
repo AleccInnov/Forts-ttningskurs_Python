@@ -1,4 +1,4 @@
-# Fortsätt från koden i mappen "Möjlig start för Överkursövning" eller din egen
+# Fortsätt från koden i mappen "Möjlig start för Extraövning" eller din egen
 # kod från tidigare övningar.
 # Då man klickar på sluta öppnas ett fönster där man får frågan om man vill
 # spara resultatet.

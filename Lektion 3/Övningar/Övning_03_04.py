@@ -1,4 +1,4 @@
-# Fortsätt efter Uppgift 03_03
+# Fortsätt efter Övning_03_03
 # Skapa en liknande meny som den som visades på lektionen
 # Valen är:
 # 1. Vill du spela sten, sax, påse?

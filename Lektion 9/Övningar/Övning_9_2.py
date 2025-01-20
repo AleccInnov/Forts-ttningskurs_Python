@@ -1,4 +1,4 @@
-# Uppgift: Lägg till exception för att hantera fel
+# Övning: Lägg till exception för att hantera fel
 # som kan uppstå vid körning av koden.
 
 numerator = 10

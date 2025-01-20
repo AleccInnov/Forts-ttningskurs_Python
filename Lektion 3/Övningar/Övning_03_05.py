@@ -1,4 +1,4 @@
-# Fortsätt efter Uppgift 03_04
+# Fortsätt efter Övning_03_04
 # Om användaren väljer 1 i din meny:
 # 1. Vill du spela sten, sax, påse?
 
@@ -14,7 +14,7 @@
 
 # -------------
 
-# Anropa din funktion från Uppgift 3 för att få ett slumpmässigt värde från tabellen "game".
+# Anropa din funktion från Övning_3 för att få ett slumpmässigt värde från tabellen "game".
 
 # -------------
 
