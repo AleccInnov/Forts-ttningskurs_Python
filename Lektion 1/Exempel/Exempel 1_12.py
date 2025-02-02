@@ -1,4 +1,4 @@
-#lista reversing - vända listan bak och fram
+# lista reversing - vända listan bak och fram
 
 my_list = [1, 2, 3, 4, 5]
 

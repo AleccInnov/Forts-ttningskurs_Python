@@ -1,4 +1,4 @@
-#for-loop och addera listor
+# for-loop och addera listor
 
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]

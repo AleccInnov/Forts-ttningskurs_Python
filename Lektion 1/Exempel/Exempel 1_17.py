@@ -1,4 +1,4 @@
-#sortera studenter i en Python dictionary
+# sortera studenter i en Python dictionary
 
 students = [
     {"name": "Alice", "score": 85},

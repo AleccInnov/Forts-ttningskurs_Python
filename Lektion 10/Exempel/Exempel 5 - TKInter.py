@@ -16,7 +16,7 @@ def calculate():
         display.delete(0, tk.END)
         display.insert(tk.END, "Error")
 
-#Main window
+# Main window
 window = tk.Tk()
 window.title("Kan du räkna 1+2?")
 
