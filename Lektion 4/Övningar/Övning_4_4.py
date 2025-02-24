@@ -1,3 +1,4 @@
+#Hitta felet i koden och rätta
 class Flower:
     def __init__(self, name, color):
         self.name = name
