@@ -1,3 +1,4 @@
+#Hitta felet i koden och rätta
 class Shape:
     def __init__(self, color):
         self.color = color
