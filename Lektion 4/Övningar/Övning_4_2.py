@@ -9,7 +9,6 @@ class Shape:
 class Circle(Shape):
     def __init__(self, color, radius):
         super().__init__(color)
-        self.radius = radius
 
     def display_radius(self):
         print(f"The radius of this circle is {self.radius}.")
