@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
-from Ballclass import Ball
-from Ballfunc import create_new_ball, move_ball
+from ballclass import Ball
+from ballfunc import create_new_ball, move_ball
 
 def main():
     # Create the main window
