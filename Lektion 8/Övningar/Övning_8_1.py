@@ -1,4 +1,4 @@
-# Hitta 1 fel
+# Hitta 1 fel och rätta till det
 
 import tkinter as tk
 import random

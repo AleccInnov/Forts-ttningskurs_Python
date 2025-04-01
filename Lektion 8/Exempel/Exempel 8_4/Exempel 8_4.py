@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
-from Ballclass4 import Ball
-from Ballfunc4 import create_new_ball, move_ball
+from ballclass4 import Ball
+from ballfunc4 import create_new_ball, move_ball
 
 def main():
     root = tk.Tk()
